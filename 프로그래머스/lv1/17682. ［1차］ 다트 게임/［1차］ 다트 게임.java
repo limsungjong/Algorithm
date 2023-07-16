@@ -56,8 +56,6 @@ class Solution {
         for (Integer v : answerList) {
             answer += v;
         }
-
-        System.out.println(answer);
         return answer;
     }
     
