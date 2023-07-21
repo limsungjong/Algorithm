@@ -1,8 +1,7 @@
 class Solution {
     public String solution(int n) {
         StringBuilder answer = new StringBuilder();
-        int flag = 0;
-        for( int i = 0; i < n / 2; i++) {
+        for(int i = 0; i < n / 2; i++) {
             answer.append("수박");
         }
         if(n % 2 == 1) answer.append("수");
